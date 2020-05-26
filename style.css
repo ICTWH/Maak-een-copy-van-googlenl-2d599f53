@@ -1,0 +1,146 @@
+*{
+    font-size: Arial, sans-serif, "Tiems New Roman";
+    box-sizing: border-box;
+}
+
+.bovenkant{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.google_title{
+    font-size: 102px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 0;
+}
+
+#searchbar:focus{
+    outline: none;
+}
+
+#searchbar{
+    width: 550px;
+    border-radius: 18px;
+    border: 1px solid lightgrey;
+    padding: 12px 12px 12px;
+}
+
+.container_searchbar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.container{
+    margin-top: 15%;   
+}
+
+.search{
+    background-color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    color: gray;
+    padding: 13px 13px 13px;
+    margin-right: 3px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.language, .language a{
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.onderkantFooter{
+    margin-top: 50px;
+}
+
+.languageNL{
+    background-color: #f1f1f1;
+    color: gray;
+    padding: 2px 2px 2px;
+    width: 100%;
+    border-top: 1px solid lightgrey;
+    
+}
+
+.footerBeneden{
+    display: flex;
+    background-color: #f1f1f1;
+    color: gray;
+    width: 100%;
+    padding: 7px 7px 7px; 
+    border-top: 1px solid lightgrey;
+}
+
+
+.rechtsuitlijnen, .rechtsuitlijnen a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: gray;
+}
+
+.linksuitlijnen, .linksuitlijnen a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: gray;
+}
+
+
+
+.links{
+    display: flex;
+    width: 50%;
+}
+
+.rechts{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+  
+.G{
+    font-weight: bold;
+    font-size: 83px;
+    color: rgb(30, 144, 255);
+}
+
+.OR{
+    font-weight: bold;
+    font-size: 83px;
+    color: red;
+}
+
+.OY{
+    font-weight: bold;
+    font-size: 83px;
+    color: yellow;
+}
+
+.L{
+    font-weight: bold;
+    font-size: 83px;
+    color: green;
+}
+
+.E{
+    font-weight: bold;
+    font-size: 83px;
+    color: red;
+}
+
+.container_title{
+    text-align: center;
+}
+
+.G, .OR, .OY, .G, .L, .E{
+    margin-left: -13px;
+}
+
+.language a{
+    color: blue;
+}
